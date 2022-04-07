@@ -40,7 +40,7 @@ Password: password
 #### Connect Airflow to AWS
 
 1. Click on the Admin tab and select Connections.
-![Admin tab](https://video.udacity-data.com/topher/2019/February/5c5aaca1_admin-connections/admin-connections.png)
+<!-- ![Admin tab](https://video.udacity-data.com/topher/2019/February/5c5aaca1_admin-connections/admin-connections.png) -->
 
 2. Under Connections, select Create.
 
@@ -49,7 +49,7 @@ Password: password
 - Conn Type: Enter Amazon Web Services.
 - Login: Enter your Access key ID from the IAM User credentials.
 - Password: Enter your Secret access key from the IAM User credentials.
-![aws_credentials](https://video.udacity-data.com/topher/2019/February/5c5aaefe_connection-aws-credentials/connection-aws-credentials.png)
+<!-- ![aws_credentials](https://video.udacity-data.com/topher/2019/February/5c5aaefe_connection-aws-credentials/connection-aws-credentials.png) -->
 Once you've entered these values, select Save and Add Another.
 
 4. On the next create connection page, enter the following values:
@@ -60,7 +60,7 @@ Once you've entered these values, select Save and Add Another.
 - Login: Enter awsuser.
 - Password: Enter the password you created when launching your Redshift cluster.
 - Port: Enter 5439.
-![redshift](https://video.udacity-data.com/topher/2019/February/5c5aaf07_connection-redshift/connection-redshift.png)
+<!-- ![redshift](https://video.udacity-data.com/topher/2019/February/5c5aaf07_connection-redshift/connection-redshift.png) -->
 Once you've entered these values, select Save.
 
 #### Start the DAG
